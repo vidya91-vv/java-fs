@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head><title>Title</title></head>
+  <body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi corporis suscipit quas quae eaque rerum mollitia, officiis, debitis architecto omnis quidem odit voluptates. Illo magni corporis dolor quam vero ratione.</p>
+
+    <h1 id="dt">Mouse over me</h1>
+
+    <input type="button" value="Click Here" onclick="event1()">
+
+    
+      <script>
+
+      document.getElementById("dt").onmouseover = function(){
+        mouseOver()
+      };
+
+      function mouseOver(){
+         document.getElementById("dt").style.color = "red";
+      }
+    </script>
+  </body>
+</html>
